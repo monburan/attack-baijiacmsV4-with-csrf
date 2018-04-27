@@ -1,10 +1,15 @@
-# why make this
+# Baijiacms officials link
 
-BaijiacmsV4 does not open the issue, it is only possible to write a vulnerability here.
+baijiacms: https://github.com/baijiacms/baijiacmsV4
+
+# Why make this
+
+BaijiacmsV4 does not open the issue,I can't feedback any issue,it's only possible to write up vulnerability here.
 
 After administrator logged in, attacker can use CSRF add a new administrator or delete any user(include administrator), you can even change admin account password without using any password.
 
-# poc
+# Poc
+
 ## del any user
 
 poc:
@@ -27,6 +32,7 @@ poc:
 </body>
 </html>
 ```
+
 ## add a user(admin)
 
 poc:
@@ -50,6 +56,7 @@ poc:
 </body>
 </html>
 ```
+
 ## change admin password
 
 poc:
